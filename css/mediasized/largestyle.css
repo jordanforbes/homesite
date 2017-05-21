@@ -1,0 +1,37 @@
+.smallpic {
+  display: block;
+  margin-left: -100px;
+  /*	margin-top: -100px;
+*/
+  filter: opacity(50%);
+  width: 300px;
+  /*		border:1px dashed black;
+*/ }
+
+.smallpic:hover {
+  filter: opacity(100%); }
+
+.largepic {
+  width: 100%; }
+
+.nail {
+  width: 80px;
+  height: 250px;
+  overflow: hidden;
+  display: block;
+  float: right;
+  /*	width:10%;
+*/
+  position: relative;
+  /*	border:1px dashed blue;
+*/ }
+
+.paintlistborder {
+  width: 18%;
+  max-width: 240px;
+  overflow: hidden;
+  position: relative;
+  display: block;
+  float: left;
+  height: 200%;
+  border: 1px dashed black; }

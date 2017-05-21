@@ -1,0 +1,33 @@
+<br>
+<br>
+<div class="contayner">
+	<div class="yearborder">
+		<div class="year">
+		</div>
+	</div>
+		<div class="paintlistborder">
+			<div class=" border">
+				<div class="nail" ng-repeat="painting in paintings" painting= "painting" on-painting-click= 'onPaintingSelection(selectedSrc, selectedTitle, selectedYear, selectedDescription)'  >
+				</div>
+			</div>
+		</div>
+		<div class=" bigpaintborder">
+			<div ng-include src="'/views/bigpainting.ejs'"></div>
+
+			<!-- <img class="largepic" src="/assets/Paintings/oy.jpg"> -->
+		</div>
+		<div class="descborder">
+			<div class="block">
+				<div class="imgtitle">
+				{{selectedTitle}}
+				</div>
+				<div class="imgyear">
+				{{selectedYear}}
+				</div>
+				<div class="imgdesc">
+				{{selectedDescription}}
+				</div>
+			</div>
+		</div>
+	
+</div>

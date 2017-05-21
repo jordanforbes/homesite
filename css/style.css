@@ -1,0 +1,92 @@
+.smallpic {
+  display: block;
+  margin-left: -100px;
+  /*	margin-top: -100px;
+*/
+  filter: opacity(50%);
+  width: 300px;
+  /*		border:1px dashed black;
+*/ }
+
+.smallpic:hover {
+  filter: opacity(100%); }
+
+.largepic {
+  width: 100%; }
+
+.nail {
+  width: 80px;
+  height: 250px;
+  overflow: hidden;
+  display: block;
+  float: right;
+  /*	width:10%;
+*/
+  position: relative;
+  /*	border:1px dashed blue;
+*/ }
+
+.col-md-6 {
+  /*	border:1px dashed black;
+*/ }
+
+.border {
+  /*	border:1px dashed black;
+*/
+  height: 100%;
+  /*	overflow:hidden;
+*/
+  padding: 0px;
+  margin-left: -10px;
+  position: relative; }
+
+.contayner {
+  margin-left: 0%;
+  margin-right: 20px;
+  width: 100%; }
+
+.yearborder {
+  border: 1px solid white;
+  background-color: white;
+  position: relative;
+  float: left;
+  width: 5%;
+  display: block;
+  opacity: 0; }
+
+.year {
+  font-size: 20px;
+  width: 10%;
+  display: block; }
+
+.paintlistborder {
+  width: 18%;
+  max-width: 240px;
+  overflow: hidden;
+  position: relative;
+  display: block;
+  float: left;
+  height: 200%; }
+
+.descborder {
+  /*	border:1px dashed black;
+*/
+  /*width:33.3%;*/
+  height: 100%;
+  position: relative;
+  width: 20%;
+  display: block;
+  float: left;
+  font-size: 20px;
+  padding-left: 10px; }
+
+.bigpaintborder {
+  /*	border:1px dashed black;
+*/
+  width: 50%;
+  overflow: hidden;
+  padding: 0px;
+  float: left;
+  position: relative;
+  /*	width:50%;
+*/ }

@@ -2,6 +2,7 @@ var paintingApp = angular.module('paintingApp', [
 	'ngRoute',
 	'paintingControllers',
 	'paintingsFactory',
+
 	'paintingDirective'
 	]);
 
@@ -19,4 +20,9 @@ paintingApp.config(function($routeProvider){
 			redirectTo: '/'
 		});
 });
+
+var contactApp = angular.module('contactApp', [
+	'ngRoute',
+	'contactsFactory'
+	])
 

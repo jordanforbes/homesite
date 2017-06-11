@@ -1,0 +1,29 @@
+
+<br>
+<br>
+<div class="contayner">
+	<div class="yearborder">
+		<div class="year">
+		</div>
+	</div>
+		<div class="paintlistborder">
+			<div class=" border">
+				<div class="nail" ng-repeat="webapp in webapps" webapp= "webapp" on-webapp-click= 'onWebappSelection(selectedTitle)'  >
+				</div>
+			</div>
+		</div>
+		<div class=" bigpaintborder">
+			<div ng-include src="'/views/bigwebapp.ejs'"></div>
+
+			<!-- <img class="largepic" src="/assets/Paintings/oy.jpg"> -->
+		</div>
+		<div class="descborder">
+			<div class="block">
+				<div class="imgtitle">
+				{{selectedTitle}}
+				</div>
+				
+			</div>
+		</div>
+	
+</div>

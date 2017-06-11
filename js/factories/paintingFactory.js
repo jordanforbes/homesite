@@ -17,3 +17,5 @@ angular.module('paintingsFactory',[])
 		}
 	}		
 		})
+
+			//needs a button that switches the json files

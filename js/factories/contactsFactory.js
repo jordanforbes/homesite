@@ -17,3 +17,4 @@ angularModule('contactsFactory'[])
 			}
 		}
 	})
+

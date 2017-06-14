@@ -1,6 +1,13 @@
 @import 'bootstrap.min';
-@import 'btnstyles.scss';
+@import 'btnstyles';
+@import 'thumbs';
 
+.imgtitle{
+	font-size:50px;	
+}
+.imgyear{
+	font-size:20px;
+}
 
 .myname {
 	display:block;
@@ -14,37 +21,11 @@
 	margin-left:1%;
 	margin-top:3%;
 }
-.smallpic{
-	display:block;
-	margin-left:-100px;
-/*	margin-top: -100px;
-*/	
-	filter:opacity(50%);
-	width:300px;
-/*		border:1px dashed black;
-*/
-}
 
-.smallpic:hover{
-	filter:opacity(100%);
-
-}
 .largepic{
 	width:100%;
 }
-.nail{
-	width:70px;
-	height:250px;
-	overflow:hidden;
-	display:block;
-	float:right;
-/*	width:10%;
-*/	position:relative;
-/*	border:1px dashed blue;
-*/}
-.nail:hover{
-	// border:2px white solid;
-}
+
 .col-md-6{
 /*	border:1px dashed black;
 */}
